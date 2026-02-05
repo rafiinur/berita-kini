@@ -1,0 +1,137 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-nunito: 'Nunito Sans', sans-serif;
+
+  --color-brand: #0090ff;
+
+  --color-primary-50: #e3f2ff;
+  --color-primary-100: #bbdfff;
+  --color-primary-200: #93cbfc;
+  --color-primary-300: #5fb7ff;
+  --color-primary-400: #4aa7f9;
+  --color-primary-500: #0099ff;
+  --color-primary-600: #2d8be9;
+  --color-primary-700: #2879d6;
+  --color-primary-800: #2469c4;
+  --color-primary-900: #1c4aa5;
+
+  --color-warning-50: #fdf8e1;
+  --color-warning-100: #fbebb4;
+  --color-warning-300: #f7d352;
+  --color-warning-500: #f5bf17;
+  --color-warning-700: #f59f0b;
+  --color-warning-900: #f47103;
+
+  --color-error-50: #ffeaed;
+  --color-error-100: #ffc9ce;
+  --color-error-300: #e6696a;
+  --color-error-500: #f32e26;
+  --color-error-700: #d31121;
+  --color-error-900: #b7000c;
+
+  --color-dark-50: #e6e9ee;
+  --color-dark-100: #c2c9d4;
+  --color-dark-200: #9aa4b6;
+  --color-dark-300: #78899e;
+  --color-dark-400: #5c7188;
+  --color-dark-500: #465c74;
+  --color-dark-600: #354860;
+  --color-dark-700: #273549;
+  --color-dark-800: #1a2332;
+  --color-dark-900: #0d1216;
+}
+
+body {
+  @apply m-0 font-inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+/* 
+h1 {
+  @apply font-inter font-bold text-6xl leading-18;
+}
+
+h2 {
+  @apply font-inter font-bold text-5xl leading-14.5;
+}
+
+h3 {
+  @apply font-inter font-bold text-[40px] leading-12;
+}
+
+h4 {
+  @apply font-inter font-bold text-[30px] leading-9.5;
+}
+
+h5 {
+  @apply font-inter font-semibold text-[28px] leading-10;
+}
+
+h6 {
+  @apply font-inter font-semibold text-[24px] leading-7.5;
+} */
+
+.body-large-regular {
+  @apply font-inter font-normal text-[18px] leading-6.5;
+}
+
+.body-large-medium {
+  @apply font-inter font-medium text-[18px] leading-6.5;
+}
+
+.body-large-semibold {
+  @apply font-inter font-semibold text-[18px] leading-6.5;
+}
+
+.body-large-bold {
+  @apply font-inter font-bold text-[18px] leading-6.5;
+}
+
+.body-medium-regular {
+  @apply font-inter font-normal text-[16px] leading-6;
+}
+
+.body-medium-medium {
+  @apply font-inter font-medium text-[16px] leading-6;
+}
+
+.body-medium-semibold {
+  @apply font-inter font-semibold text-[16px] leading-6;
+}
+
+.body-medium-bold {
+  @apply font-inter font-bold text-[16px] leading-6;
+}
+
+.body-small-bold {
+  @apply font-inter font-bold text-[14px] leading-5.5;
+}
+
+.body-small-semibold {
+  @apply font-inter font-semibold text-[14px] leading-5.5;
+}
+
+.body-small-regular {
+  @apply font-inter font-normal text-[14px] leading-5.5;
+}
+
+.body-small-medium {
+  @apply font-inter font-medium text-[14px] leading-5.5;
+}
+
+.body-extra-small-regular {
+  @apply font-inter font-normal text-[12px] leading-5;
+}
+
+.body-extra-small-medium {
+  @apply font-inter font-medium text-[12px] leading-5;
+}
